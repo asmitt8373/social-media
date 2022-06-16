@@ -1,29 +1,30 @@
+/* is the universal selcotor for the whole page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* makes the background of the body white  */
 body {
     background-color: #d9dcd6;
 }
-
+/* holds the content of everything in the top right of the navigation bar  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* controls the font size and makes the content width and height have no effect */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* changes the span to follow a certain color */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* makes up the content of the navigation bar in the top right corner of the page */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* constructs the content in the list of the following content */
 .header div ul {
     list-style-type: none;
 }
-
+/* determines the position of the navigation bar in the top right corner  */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* sets the link white and has no link decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* changes the font size of the paragraph to 16px */
 p {
     font-size: 16px;
 }
-
+/* sets the style of the main image */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* sets the positioning of the image on the left side of the section, and sets a margin to give the text padding from an image*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* sets the positioning of image on the right side of the section, and sets a margin to give the text padding from an image */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* sets all the info fit to the page and gives the content a margin to the right */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* sets the content on the right size and width to fit to the right also gives you the font size and family/ background color  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,56 +86,25 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* sets the content white and sets a margin by 32px */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* sets the text centered and puts to where the user wants it  */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* controls the images max width and gives it a margin to all of the content */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* search content styles being used for all three sections */
+/* makes the height of the content and gives it space between the others, changes the background color, and font. padding makes it fit accordingly  */
+.searchcontent {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,59 +112,23 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* controls the max height of the image */
+.searchcontent img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* controls the margin between the text and seo and gives it a certain font size  */
+.searchcontent h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* sets the text centered and creates a padding across the content and its clear */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* controls the font size of the text at the bottom */
 .footer h2 {
     font-size: 20px;
 }
